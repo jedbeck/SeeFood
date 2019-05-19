@@ -10,8 +10,9 @@
 		C3417EAD22906C5E00979CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3417EAC22906C5E00979CB1 /* AppDelegate.swift */; };
 		C3417EAF22906C5E00979CB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3417EAE22906C5E00979CB1 /* ViewController.swift */; };
 		C3417EB222906C5E00979CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3417EB022906C5E00979CB1 /* Main.storyboard */; };
-		C3417EB422906C5F00979CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3417EB322906C5F00979CB1 /* Assets.xcassets */; };
 		C3417EB722906C5F00979CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3417EB522906C5F00979CB1 /* LaunchScreen.storyboard */; };
+		C3417EBF22906CE000979CB1 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C3417EBE22906CE000979CB1 /* Inceptionv3.mlmodel */; };
+		C3417EC3229074C000979CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3417EC2229074C000979CB1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +20,10 @@
 		C3417EAC22906C5E00979CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3417EAE22906C5E00979CB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3417EB122906C5E00979CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3417EB322906C5F00979CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3417EB622906C5F00979CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3417EB822906C5F00979CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3417EBE22906CE000979CB1 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		C3417EC2229074C000979CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 				C3417EAC22906C5E00979CB1 /* AppDelegate.swift */,
 				C3417EAE22906C5E00979CB1 /* ViewController.swift */,
 				C3417EB022906C5E00979CB1 /* Main.storyboard */,
-				C3417EB322906C5F00979CB1 /* Assets.xcassets */,
+				C3417EC2229074C000979CB1 /* Assets.xcassets */,
 				C3417EB522906C5F00979CB1 /* LaunchScreen.storyboard */,
 				C3417EB822906C5F00979CB1 /* Info.plist */,
+				C3417EBE22906CE000979CB1 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -123,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3417EB722906C5F00979CB1 /* LaunchScreen.storyboard in Resources */,
-				C3417EB422906C5F00979CB1 /* Assets.xcassets in Resources */,
+				C3417EC3229074C000979CB1 /* Assets.xcassets in Resources */,
 				C3417EB222906C5E00979CB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3417EAF22906C5E00979CB1 /* ViewController.swift in Sources */,
+				C3417EBF22906CE000979CB1 /* Inceptionv3.mlmodel in Sources */,
 				C3417EAD22906C5E00979CB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
